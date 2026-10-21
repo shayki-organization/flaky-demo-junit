@@ -1,0 +1,19 @@
+src/test/java/com/example/CalcTest.java
+  s_2b4d4531607f43::t_307a294927de05 34-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f1549756943c08d282164106690233e07e16e9d9",
+  "prompts": {},
+  "sessions": {
+    "s_2b4d4531607f43": {
+      "agent_id": {
+        "tool": "windsurf",
+        "id": "stealth-giraffe",
+        "model": "unknown"
+      },
+      "human_author": "Shayki Abramczyk <shayki5@gmail.com>"
+    }
+  }
+}
