@@ -1,0 +1,24 @@
+.github/workflows/tests.yml
+  h_75d26f28339534 1-19
+.gitignore
+  h_75d26f28339534 1
+README.md
+  h_75d26f28339534 1-9
+pom.xml
+  h_75d26f28339534 1-36
+src/main/java/com/example/Calc.java
+  h_75d26f28339534 1-15
+src/test/java/com/example/CalcTest.java
+  h_75d26f28339534 1-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1b7728c6e9b5f3bfc3ea2f83a3d7914ae8b1aa0f",
+  "prompts": {},
+  "humans": {
+    "h_75d26f28339534": {
+      "author": "Shayki Abramczyk <shayki5@gmail.com>"
+    }
+  }
+}
