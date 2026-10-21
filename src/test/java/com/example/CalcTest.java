@@ -32,6 +32,14 @@ class CalcTest {
     }
 
     @Test
+    void flakyFailsOnFirstAttemptOnly() {
+        if ("1".equals(System.getenv("GITHUB_RUN_ATTEMPT"))) {
+            fail("flaky: simulated first-attempt failure (GITHUB_RUN_ATTEMPT=1)");
+        }
+        assertEquals(2, Calc.add(1, 1));
+    }
+
+    @Test
     void flakyMultipliesUnderContention() {
         if (ThreadLocalRandom.current().nextDouble() < 0.4) {
             fail("flaky: simulated contention in multiplier");
